@@ -30,7 +30,7 @@ public class BaseClass {
 	public void setUpSuite() {
 		 excel=new ExcelDataProvider();
 		 config= new ConfigDataProvider();
-		 		
+		 System.out.println("My Extent Report");		
 		 //ExtentSparkReporter extent =new ExtentSparkReporter("C:\\dev\\workspace\\Education\\MyFrameWork\\Reports\\TestReport1.html");
 		 //ExtentSparkReporter extent =new ExtentSparkReporter(System.getProperty("user.dir")+"/Reports/TestReport.html");
 		 //System.out.println(extent.getReport().toString());
