@@ -17,7 +17,7 @@ public class GooglePageTest extends BaseClass{
 	{
 		
 		logger=report.createTest("Google Test");
-		logger.info("Starting Test");
+		logger.info("Starting123 Test");
 		google= PageFactory.initElements(driver, GooglePage.class);
 		//GooglePage google = new GooglePage(driver);
 		System.out.println("In Test Method");
